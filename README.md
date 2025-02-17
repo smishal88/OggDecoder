@@ -19,7 +19,7 @@ OggDecoder works on the following platforms:
 To use OggDecoder with Apple's Swift package manager, add the following as a dependency to your Package.swift:
 
 ```swift
-.package(url: "https://github.com/arkasas/OggDecoder.git")
+.package(url: "https://github.com/smishal88/OggDecoder.git")
 ```
 
 

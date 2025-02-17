@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     OggDecoder is a library that provides functionality for decoding Ogg files using the ogg and vorbis frameworks.
                    DESC
-  s.homepage     = 'https://github.com/yourusername/OggDecoder' # Update this with your repo URL
+  s.homepage     = 'https://github.com/smishal88/OggDecoder.git' # Update this with your repo URL
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Your Name' => 'your.email@example.com' }
-  s.source       = { :git => 'https://github.com/yourusername/OggDecoder.git', :tag => s.version.to_s }
+  s.author       = { 'Suliman Mishael' => 's.mishael@classera.com' }
+  s.source       = { :git => 'https://github.com/smishal88/OggDecoder.git', :tag => s.version.to_s }
 
   # Platform support
   s.platform     = :ios, '14.0'

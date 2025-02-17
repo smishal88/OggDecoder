@@ -17,11 +17,4 @@ Pod::Spec.new do |s|
     'vorbis.xcframework'
   ]
   s.swift_versions = ['5.5']
-
-  # Test specification
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/OggDecoderTests/**/*.{h,m,swift}'
-    test_spec.resources = 'Tests/OggDecoderTests/TestResources/**/*'
-    test_spec.dependency 'OggDecoder' # Ensure the test target depends on the main target
-  end
 end
